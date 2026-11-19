@@ -36,8 +36,8 @@ private:
 
 public:
     Negocio(string nomNegocio, string nomResponsable, Mercado *m)
-        : nombre(nomNegocio), responsable(nomResponsable), mercado(m),
-          numCargas(0), costoConDia(0.0f), costoSinDia(0.0f),
+        : nombre(nomNegocio), responsable(nomResponsable),
+          numCargas(0), mercado(m), costoConDia(0.0f), costoSinDia(0.0f),
           horasSimuladasDia(0), fallasLecturaDia(0),
           semanaSimulada(false), totalFallasSemana(0)
     {
